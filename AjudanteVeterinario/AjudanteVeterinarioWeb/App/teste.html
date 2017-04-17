@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html ng-app="AngularApp">
+
+<head>
+    <title>Vet Menu</title>
+
+    <!-- Angular -->
+    <script src="js/lib/angular.min.js"></script>
+    <script src="js/lib/angular-route.min.js"></script>
+    <script src="js/lib/angular-ui-router.min.js"></script>
+    <script src="js/lib/angular-sanitize.min.js"></script>
+    <script src="js/lib/angular-animate.min.js"></script>
+    <script src="js/lib/angular-aria.min.js"></script>
+
+    <!-- Angular Material -->
+    <script src="js/lib/angular-material.min.js"></script>
+    <link rel="stylesheet" href="css/angular-material.min.css">
+
+    <!-- JQuery -->
+    <script src="js/lib/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/lib/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Tether - Dependência obrigatória do Bootstrap -->
+    <script src="js/lib/tether.min.js"></script>
+    <link rel="stylesheet" href="css/tether.min.css">
+
+    <!-- App -->
+    <script src="js/app.js"></script>
+    <script src="js/router/router.js"></script>
+    <script src="js/router/state.js"></script>
+    <script src="js/interceptor/conectionRefused.js"></script>
+
+    <!-- Controller -->
+    <script src="js/controller/PropriedadeController.js"></script>
+
+    <script src="js/controller/menuController.js"></script>
+
+    <!-- Service -->
+    <script src="js/service/PropriedadeService.js"></script>
+    <script src="js/service/escolaService.js"></script>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body ng-cloak layout="column">
+
+    <!-- Menu Superior - Cabeçalho -->
+    <md-toolbar>
+
+    </md-toolbar>
+
+    <div flex layout="row">
+
+        <!-- Menu Lateral -->
+        <md-sidenav class="md-sidenav-left" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')" md-whiteframe="4">
+
+            <md-toolbar class="md-theme-indigo">
+                <h1 class="md-toolbar-tools">Menu</h1>
+            </md-toolbar>
+            <!-- É necessário criar um controller para gerenciar o Sidnav: MenuController -->
+            <md-content layout-padding ng-controller="MenuController">
+                <!-- Menu -->
+                <ul class="nav navbar-nav">
+                    <!-- Navegações definidas no state.js para o ui-sref. Não usar pontos (.) na definição da navegação, somente são permitidas as barras (/) -->
+
+                    <li><a ui-sref="/aluno/cadastrar">Cadastrar Fazenda</a></li>
+                    <li><a ui-sref="/aluno/listar">Listar Fazendas</a></li>
+                </ul>
+            </md-content>
+
+        </md-sidenav>
+
+        <!-- Conteúdo que muda dependendo da navegação escolhida -->
+        <div layout="column" layout-align="start center">
+            <div class="box1">
+                <div ui-view>
+                    <!-- Conteúdo da rota atual -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
