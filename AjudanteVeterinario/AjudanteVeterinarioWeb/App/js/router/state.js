@@ -13,13 +13,20 @@ angulaAppModulo.config(function ($stateProvider, $urlRouterProvider) {
             url: '/login',
             templateUrl: 'login.html'
         })
-        .state('menu', {s
-            url: '/menu',
-            templateUrl: 'menu.html'
+        .state("cadastroAnimal", {
+            url: '/cadastroAnimal',
+            title: 'Cadastro',
+            controller:'animalController'
+            templateUrl: 'cadastroAnimal.html'
         })
-        .state("cadastro", {
-            url: '/cadastro',
-            templateUrl: 'cadastro.html'
+        .state("cadastroFazenda", {
+            url: '/cadastroFazenda',
+            title: 'Fazenda',
+            controller:'PropriedadeController'
+            templateUrl: 'cadastroFazenda.html'
         })
-
+        .state("listarAnimais", {
+            url: '/listarAnimais',
+            templateUrl: 'cadastroFazenda.html'
+        })
 });

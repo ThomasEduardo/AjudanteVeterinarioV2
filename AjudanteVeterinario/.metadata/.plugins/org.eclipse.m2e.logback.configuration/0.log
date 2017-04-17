@@ -21,3 +21,5 @@
 2017-04-17 02:57:00,055 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java\Web\pweb\Workspaace\AjudanteVeterinario\RestEasyApp\src\main\resources
 2017-04-17 02:57:00,059 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-04-17 02:57:00,071 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java\Web\pweb\Workspaace\AjudanteVeterinario\RestEasyApp\src\test\resources
+2017-04-17 11:07:53,789 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RestEasyApp:RestEasyApp:0.0.1-SNAPSHOT @ D:\Java\Web\pweb\AjudanteVeterinarioV2\AjudanteVeterinario\RestEasyApp\pom.xml.
+2017-04-17 11:08:06,168 [Worker-15] INFO  o.e.m.c.i.p.r.ProjectRegistryRefreshJob - org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob was canceled
