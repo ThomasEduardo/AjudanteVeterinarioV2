@@ -20,7 +20,7 @@
                 <div class="row">
                     <div class="col-lg-6" ng-controller="animalController">
 
-                        <form role="form" ng-submit="addAnimais()">
+
 
                             <div class="form-group">
                                 <label>Raça</label>
@@ -62,12 +62,12 @@
                                     <input class="form-control" placeholder="Exemplo: 5 anos" ng-model="animal.idade"  required="required">
                                 </div>
                               </div>
-                              <p>{{ animal }}</p>
+
                             </div>
-                            <p>{{ animal }}</p>
-                            <button type="submit" class="btn btn-default"> Cadastrar </button>
+
+                            <button type="button" class="btn btn-default" ngclick="addAnimais()"> Cadastrar </button>
                         </form>
-<p>{{ animal }}</p>
+
                     </div>
 
                         </form>

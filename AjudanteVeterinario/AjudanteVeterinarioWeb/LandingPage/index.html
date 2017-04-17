@@ -56,7 +56,7 @@
     <!-- App
   	==================================================-->
     <script src="js/app.js"></script>
-    <script src="js/router/router.js"></script>
+    <script src="js/router/route.js"></script>
     <script src="js/router/state.js"></script>
     <script src="js/interceptor/conectionRefused.js"></script>
 
@@ -279,18 +279,18 @@ dos animais de grande porte.</p>
             <form name="contactForm" id="contactForm" method="post">
 
                <div class="form-field">
- 					   <input name="contactName" type="text" id="contactName" placeholder="Nome" value="" minlength="2" required="">
+ 					   <input name="contactName" type="text" id="contactName" placeholder="Nome" ng-model="fazendaInteressada.nome" value="" minlength="2" required="">
                </div>
 
                <div class="row">
                  	<div class="col-six tab-full">
                  		<div class="form-field">
-                 			<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+                 			<input name="contactEmail" type="email" id="contactEmail" ng-model="fazendaIteressada.Email" placeholder="Email" value="" required="">
                  		</div>
 		            </div>
 	            	<div class="col-six tab-full">
 	            		<div class="form-field">
-	            			<input name="contactSubject" type="text" id="contactSubject" placeholder="Nome da Fazenda" value="">
+	            			<input name="contactSubject" type="text" id="contactSubject" ng-model="fazendaInteressada.Mensagem" placeholder="Nome da Fazenda" value="">
 	                  </div>
 		            </div>
                </div>
