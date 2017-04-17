@@ -1,0 +1,12 @@
+2017-04-17 12:00:32,525 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RestEasyApp:RestEasyApp:0.0.1-SNAPSHOT @ D:\Java\Web\pweb\AjudanteVeterinarioV2\AjudanteVeterinario\RestEasyApp\pom.xml.
+2017-04-17 12:01:19,200 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestEasyApp/src
+2017-04-17 12:01:19,203 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /RestEasyApp/src/test/java because it overlaps with /RestEasyApp/src
+2017-04-17 12:01:32,128 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 109 sec
+2017-04-17 12:01:56,827 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 12:01:57,210 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java\Web\pweb\AjudanteVeterinarioV2\AjudanteVeterinario\RestEasyApp\src\main\resources
+2017-04-17 12:01:57,216 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 12:01:57,309 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java\Web\pweb\AjudanteVeterinarioV2\AjudanteVeterinario\RestEasyApp\src\test\resources
+2017-04-17 12:22:59,711 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 12:22:59,732 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java\Web\pweb\AjudanteVeterinarioV2\AjudanteVeterinario\RestEasyApp\src\main\resources
+2017-04-17 12:22:59,735 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 12:22:59,797 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java\Web\pweb\AjudanteVeterinarioV2\AjudanteVeterinario\RestEasyApp\src\test\resources
